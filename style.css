@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top-header{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/5e7c383c-1f88-4983-b4da-06e14c0984ba/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 80vh;
+    
+}
+.container{
+   
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.7);
+    align-items: center;
+}
+
+
+.content{
+    margin: 20vh auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.content h1 , .content p{
+    margin-top: 10px;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.content p{
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.content h3{
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+}
+html{
+    color: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+        font-family:  sans-serif;
+    background-color: black;
+    font-weight: bold;
+}
+.language-icon
+{
+    background-color: rgba(0, 0, 0,0.5);
+    color: #fff;
+    padding: 14px 30px;
+    border: non1px solid gray;
+    border-radius: 8px;
+    
+}
+
+.drop-down{
+   
+    width: 180px;
+    position: relative;
+    
+}
+.language{
+    position: absolute;
+    padding-top: 8px;
+    
+}
+
+.navbar{
+    border: 2px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right-half{
+    display: flex;
+    gap: 20px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    
+    
+}
+.bin{
+    background: rgb(229,9,20);
+    color: rgb(255,255,255);
+    padding: 6px 10px;
+    border: 5px;
+    min-width: 80px;
+    border-radius: 5px;
+    height: 31px;
+    font-size: 16px;
+    text-align: top;
+}
+.email-container{
+  padding-left: 110px;
+    display: flex;
+    width: 60%;
+    gap: 8px;
+    margin-top: 20px ;
+    
+    
+}
+.email-container > input{
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0,0.5);
+    color: white;
+    border: 1px solid gray;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.get{
+    
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    
+}
+
+.body-section{
+   
+    display: flex;
+    align-items: center;
+    gap: 230px;
+    padding: 0 100px;
+
+}
+.left-item{
+    margin-left: 30px;
+    
+    }
+    .left-item h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .left-item p{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .rigth-item{
+       
+        position: relative;
+        z-index:-1;
+    }
+    .rigth-item >video{
+        position: absolute;
+     left: 99px;
+     top: 20%;
+     width: 74%;
+     z-index: -1;
+    }
+    .top-header,.body-section,footer{
+        border-bottom: 10px solid rgb(58, 57, 57);
+    }
+
+
+    .rigth-item1{
+       
+        margin-left: 30px;
+    }
+    .rigth-item1 h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-family:  sans-serif;
+    }
+    .rigth-item1 p{
+        font-size: 26px;
+        margin-bottom: 20px;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-family:  sans-serif;
+    }
+    .rigth-item2{
+       
+        position: relative;
+        z-index:-1;
+    }
+    .rigth-item2 >video{
+        position: absolute;
+        left: 123px;
+        top: 8%;
+        width: 61%;
+        z-index: -1;
+    }
+    .faq-container{
+        padding: 40px 100px;;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 90%;
+    }
+    .faq-container h1{
+        font-size:50px ;
+        margin-bottom: 20px;
+
+    }
+    .faq{
+       background-color: #2D2D2D;
+        display: flex;
+        justify-content: space-between;
+        align-self: stretch;
+        padding: 20px;
+        font-size: 22PX;
+    }
+    .faq:hover{
+        background-color: #8f8f8f;
+    }
+    .email-container1{
+        padding: 10px;
+          display: flex;
+          width: 95%;
+          gap: 8px;
+          margin-top: 20px ;
+          height: 55px;
+          
+      }
+      .email-container1 > input{
+          flex-grow: 1;
+          background-color: rgba(0, 0, 0,0.5);
+          color: white;
+          border: 1px solid gray;
+          padding: 0 10px;
+          border-radius: 5px;
+          height: 55px;
+          font-size: 20px;
+      
+      }
+      .bin1{
+        background: rgb(229,9,20);
+        color: rgb(255,255,255);
+        padding:  10px 10px;
+        border: 5px;
+        min-width: 80px;
+        border-radius: 5px;
+        height: 55px;
+        
+    }
+    .l1{
+        color: gray;
+        font-size: 10px;
+    }
+    .footer{
+        padding: 100px;
+        color: #afafaf;
+
+    }
+    footer a{
+        color: #afafaf;
+
+    }
+    .link-container{
+      display: flex;
+      gap: 200px;
+      justify-content: flex-start;
+      padding: 40px 0;
+     width: auto;
+    }
+    .l1{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     font-size: 20px;
+     width: 200%;
+
+    }
